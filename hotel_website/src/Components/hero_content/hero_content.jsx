@@ -3,7 +3,7 @@ import React from 'react'
 const HeroContent = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center text-white">
-      <h1 className='text-[70px] font-[times] text-center mt-20'>The Luma - Beach Resort</h1>
+      <h1 className='text-[70px] font-[Buongiorno Rastellino] text-center mt-20'>The Luma - Beach Resort</h1>
 
       {/* Form container */}
       <div className='mt-10 bg-white/20 backdrop-blur-md rounded-xl p-6 w-[90%] max-w-5xl shadow-lg'>
