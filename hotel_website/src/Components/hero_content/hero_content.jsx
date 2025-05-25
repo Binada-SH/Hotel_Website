@@ -1,27 +1,43 @@
 import React from 'react'
 
-const hero_content = () => {
+const HeroContent = () => {
   return (
-    <div>
-        <h1 className='text-[70px] text-[#ffffff] font-[times] text-center mt-60'>The Luma - Beach Resort</h1>
-        <div className='text-[20px] text-[#000000] font-[lato] text-center m-auto w-300 h-20 mt-30 bg-[#d0d0d0] rounded-lg flex flex-wrap items-center justify-center'>
-            <form action="" className='flex flex-wrap items-center justify-center'>
-                <label>Check In :</label>
-                <input type="date" className='pl-8' />
-                <label className='ml-8'>Check Out :</label>
-                <input type="date" className='pl-8' />
-                <label className='ml-8'>Adults :</label>
-                <input type="number" className='w-30 h-6 outline-1 outline-[#daa954] ml-5 rounded-sm pl-8' placeholder='Guests' />
-                <label className='ml-8'>Rooms :</label>
-                <input type="number" className='w-30 h-6 outline-1 outline-[#daa954] ml-5 rounded-sm pl-8' placeholder='Rooms'/>
-            </form>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center text-white">
+      <h1 className='text-[70px] font-[times] text-center mt-20'>The Luma - Beach Resort</h1>
+
+      {/* Form container */}
+      <div className='mt-10 bg-white/20 backdrop-blur-md rounded-xl p-6 w-[90%] max-w-5xl shadow-lg'>
+        <form className='grid grid-cols-1 md:grid-cols-4 gap-4 items-center'>
+          <div className='flex flex-col'>
+            <label className='mb-1 font-semibold'>Check In</label>
+            <input type="date" className='p-2 rounded-md outline-none bg-white/80 text-gray-500' />
+          </div>
+
+          <div className='flex flex-col'>
+            <label className='mb-1 font-semibold'>Check Out</label>
+            <input type="date" className='p-2 rounded-md outline-none bg-white/80 text-gray-500' />
+          </div>
+
+          <div className='flex flex-col'>
+            <label className='mb-1 font-semibold'>Adults</label>
+            <input type="number" className='p-2 rounded-md outline-none bg-white/80 text-gray-500' placeholder='Guests' />
+          </div>
+
+          <div className='flex flex-col'>
+            <label className='mb-1 font-semibold'>Rooms</label>
+            <input type="number" className='p-2 rounded-md outline-none bg-white/80 text-gray-500' placeholder='Rooms' />
+          </div>
+        </form>
+
+        {/* Button */}
+        <div className='mt-6 flex justify-center'>
+          <button className='bg-[#daa954] text-white px-6 py-2.5 rounded-md text-lg font-[lato] hover:bg-[#c99742] transition duration-300 cursor-pointer hover:text-[#000000] transform'>
+            Reserve Stay
+          </button>
         </div>
-        <div className='w-30 h-8 bg-[#daa954] rounded-md text-[#ffffff] font-[times] text-center flex flex-wrap items-center justify-center m-auto mt-8 scale-135 cursor-pointer'>
-            <button className='cursor-pointer'>Reserve Stay</button>
-        </div>
-      
+      </div>
     </div>
   )
 }
 
-export default hero_content
+export default HeroContent
