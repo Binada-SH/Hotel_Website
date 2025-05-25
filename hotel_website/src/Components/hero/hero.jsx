@@ -29,7 +29,7 @@ const Hero = () => {
           />
         ))}
       </div>
-      <div className="absolute inset-0 flex flex-col justify-center text-[#ffffff] z-10">
+      <div className="absolute inset-0 flex flex-col justify-center text-[#ffffff] z-1">
         <h1 className='text-[60px] font-[Cormorant_Garamond] text-center '>The Luma , The Art of Tropical Living.</h1>
         <h4 className='text-[18px] font-[now] text-center'>Luxury meets Tropical</h4>
       </div>
