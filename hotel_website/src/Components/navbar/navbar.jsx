@@ -2,7 +2,7 @@ import React from 'react'
 
 const navbar = () => {
   return (
-    <div className=' flex items-center font-[times] z-10 text-[#ffffff] text-[18px]'>
+    <div className=' flex items-center font-[times] z-10 text-[#ffffff] text-[18px] fixed'>
       <div className='w-30 mt-5 ml-15'>
         <img src="src/assets/logo.png" alt="site_logo" />
       </div>
