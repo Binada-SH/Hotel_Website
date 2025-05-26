@@ -15,7 +15,7 @@ const navbar = () => {
           <li><a href="" className='hover:text-[#daa954] transition-colors'>Contact Us</a></li>
         </ul>
       </div>
-      <div className='flex mt-5 ml-70 w-38 h-10 pt-1.5 pl-5 outline-1 outline-[#daa954] cursor-pointer hover:bg-[#daa954] transition-colors'>Book your stay</div>
+      <div className='flex mt-5 ml-70 w-38 h-10 pt-1.5 pl-5.5 outline-1 outline-[#daa954] cursor-pointer hover:bg-[#daa954] transition-colors'>Book your stay</div>
       
     </div>
   )
