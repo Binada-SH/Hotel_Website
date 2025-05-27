@@ -1,24 +1,25 @@
-import React from 'react'
+import React from 'react';
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div className=' flex items-center font-[Cormorant_Garamond] z-10 text-[#ffffff] text-[18px] fixed'>
-      <div className='w-30 mt-5 ml-15'>
-        <img className='cursor-pointer' src="src/assets/logo.png" alt="site_logo"/>
-      </div>
-      <div className='mt-5 ml-80'>
-        <ul className='flex gap-10'>
-          <li><a href="" className='hover:text-[#daa954] transition-colors'>Home</a></li>
-          <li><a href="" className='hover:text-[#daa954] transition-colors'>About</a></li>
-          <li><a href="" className='hover:text-[#daa954] transition-colors'>Rooms</a></li>
-          <li><a href="" className='hover:text-[#daa954] transition-colors'>Dining</a></li>
-          <li><a href="" className='hover:text-[#daa954] transition-colors'>Contact Us</a></li>
+    <div className="fixed top-0 left-0 w-full z-10 text-white text-[18px] font-[Cormorant_Garamond]">
+      <div className="max-w-[2560px] mx-auto flex items-center justify-between px-16 py-5">
+        <div>
+          <img className="cursor-pointer w-[100px]" src="src/assets/logo.png" alt="site_logo" />
+        </div>
+        <ul className="flex gap-10">
+          <li><a href="#" className="hover:text-[#daa954] transition-colors">Home</a></li>
+          <li><a href="#" className="hover:text-[#daa954] transition-colors">About</a></li>
+          <li><a href="#" className="hover:text-[#daa954] transition-colors">Rooms</a></li>
+          <li><a href="#" className="hover:text-[#daa954] transition-colors">Dining</a></li>
+          <li><a href="#" className="hover:text-[#daa954] transition-colors">Contact Us</a></li>
         </ul>
+        <div className="border border-[#daa954] px-6 py-2 cursor-pointer hover:bg-[#daa954] transition-colors">
+          Book your stay
+        </div>
       </div>
-      <div className='flex mt-5 ml-70 w-38 h-10 pt-1.5 pl-5.5 outline-1 outline-[#daa954] cursor-pointer hover:bg-[#daa954] transition-colors'>Book your stay</div>
-      
     </div>
-  )
-}
+  );
+};
 
-export default navbar
+export default Navbar;
