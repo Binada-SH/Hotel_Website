@@ -12,7 +12,7 @@ const room= [
     src: 'src/assets/supirior.jpg', 
     title: 'Superior Rooms', 
     description: 'A blend of natural textures and modern simplicity, the Superior Rooms provide a peaceful space to unwind, with views greenery.',
-    number: 30,
+    number: 20,
     view: 'Pool'
   },
   {
@@ -42,7 +42,7 @@ const Rooms = () => {
               <div className="w-[3px] mt-16 h-6 bg-[#daa954]"></div>
               <p className='mt-16 w-85'>{room.view} View</p>
             </div> 
-            <div className='mt-20 flex gap-10 px-4 text-center justify-center font-[Cormorant_Garamond] text-[19px] pb-30'>
+            <div className='mt-20 flex gap-5 px-15 text-center justify-center font-[Cormorant_Garamond] text-[19px] pb-30'>
               <h3 className='w-40 h-10 border-2 border-[#daa954] pt-1.5 hover:text-[#daa954] transition-colors'><a href="">More Info</a></h3>        
               <h3 className='bg-[#daa954] w-40 pt-1.5 text-[#ffffff] hover:text-[#000000] transition-colors'><a href="">Book Now</a></h3> 
             </div>    
