@@ -6,7 +6,7 @@ import Rooms from './Components/rooms/rooms'
 import Offers from './Components/offers/offers'
 const App = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Navbar/>
       <Hero/>
       <HeroContent/>
