@@ -33,7 +33,7 @@ const Rooms = () => {
       <div className='grid grid-cols-3 mt-40 gap-6 px-20'>
         {room.map((room,index) => (
           <div key = {index}>
-            <img src = {room.src} alt={room.title}/>
+            <img  className='cursor-pointer hover:scale-101 transition-all ' src = {room.src} alt={room.title}/>
             <h1 className=' mt-4 text-[24px] font-[now] text-center text-[#000000]'><a href="" className='cursor-pointer'>{room.title}</a></h1>
             <hr className='text-[#daa954] w-30 m-auto mt-3'/>
             <p className='mt-6 w-85 text-center text-[18px] m-auto font-[jura]'>{room.description}</p>  
