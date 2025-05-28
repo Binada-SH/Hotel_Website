@@ -15,9 +15,9 @@ const Navbar = () => {
   }, []);
   return (
     <div className={`fixed top-0 left-0 w-full z-10 text-white text-[18px] font-[Cormorant_Garamond] transition-all duration-300 ${ scrolled ? ' bg-[#111111]/60 backdrop-blur-md' : 'bg-transparent'}`}>
-      <div className="max-w-[2560px] mx-auto flex items-center justify-between px-16 py-5">
+      <div className="px-4 sm:px-16 py-3 sm:py-5 max-w-[2560px] mx-auto flex items-center justify-between">
         <div>
-          <img className="cursor-pointer w-[100px]" src="src/assets/logo.png" alt="site_logo" />
+          <img className="w-[80px] lg:w-[100px] cursor-pointer" src="src/assets/logo.png" alt="site_logo" />
         </div>
         <ul className="hidden lg:flex gap-10">
           <li><a href="#" className="hover:text-[#daa954] transition-colors">Home</a></li>
