@@ -1,22 +1,25 @@
 import React from 'react'
+import suite from '../../assets/suite.jpg';
+import superior from '../../assets/superior.jpg';
+import deluxe from '../../assets/deluxe.jpg';
 
 const room= [
   {
-    src: 'src/assets/suite.jpg', 
+    src: suite, 
     title: 'Suite Rooms', 
     description: 'Spacious and serene, our Suites offer refined luxury with sweeping views, curated interiors, and elevated comfort for an indulgent escape.',
     number: 10,
     view: 'Ocean'
   },
   {
-    src: 'src/assets/supirior.jpg', 
+    src: superior, 
     title: 'Superior Rooms', 
     description: 'A blend of natural textures and modern simplicity, the Superior Rooms provide a peaceful space to unwind, with views greenery.',
     number: 20,
     view: 'Pool'
   },
   {
-    src: 'src/assets/deluxe.jpg', 
+    src: deluxe, 
     title: 'Deluxe Rooms', 
     description: 'Cozy yet sophisticated, our Deluxe Rooms feature minimalist design, ambient light, and all the essentials for a relaxed coastal stay.',
     number: 30,

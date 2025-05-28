@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import hero_img1 from '../../assets/hero_img.jpg';
+import hero_img2 from '../../assets/hero_img_2.jpg';
+import hero_img3 from '../../assets/hero_img_3.jpg';
 
-const images = [
-  'src/assets/hero_img.jpg',
-  'src/assets/hero_img_2.jpg',
-  'src/assets/hero_img_3.jpg',
-];
+const images = [hero_img1, hero_img2, hero_img3];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

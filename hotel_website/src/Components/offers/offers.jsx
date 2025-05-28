@@ -1,5 +1,5 @@
-import { div } from 'framer-motion/client'
 import React from 'react'
+import offer_img from '../../assets/offers.jpg';
 
 const Offers = () => {
   return (
@@ -10,7 +10,7 @@ const Offers = () => {
             <p className='text-center m-auto w-93 md:text-left md:w-120 mt-6  md:ml-20 text-[15px] font-[jura] uppercase leading-8'>Make your escape even more unforgettable with curated offers that celebrate the beauty, culture, and serenity of our tropical paradise — where every moment feels timeless.</p>
             <button className='m-auto mt-8 bg-[#daa954] w-35 h-8 pt-0.5 md:ml-20 font-[Cormorant_Garamond] text-[17px] text-[#ffffff] hover:text-[#000000] cursor-pointer transition-colors'>Explore More</button>
         </div>
-        <img className='w-140 h-70 m-auto md:w-160 md:h-88 mlg:w-180 lg:h-78 mt-26 lg:ml-22 cursor-pointer' src="src/assets/offers.jpg" alt="offers image" />
+        <img className='w-140 h-70 m-auto md:w-160 md:h-88 mlg:w-180 lg:h-78 mt-26 lg:ml-22 cursor-pointer' src={offer_img} alt="offers image" />
 
 
 
